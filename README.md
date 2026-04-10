@@ -4,12 +4,32 @@ Librería de componentes UI para React, estilo [shadcn/ui](https://ui.shadcn.com
 
 **Scope npm:** `@synthetix-ui`
 
+| | |
+|---|---|
+| 📦 npm | `npm install @synthetix-ui/core` |
+| 🎨 Showcase | https://playground-theta-bay.vercel.app |
+| 📖 Docs | https://synthetix-ui-docs.vercel.app |
+
 ---
 
-## Requisitos
+## Instalación rápida
+
+```bash
+npm install @synthetix-ui/core
+```
+
+O copia componentes individuales a tu proyecto:
+
+```bash
+npx @synthetix-ui add button
+```
+
+---
+
+## Requisitos (desarrollo)
 
 - Node.js >= 18
-- pnpm >= 8
+- pnpm >= 10
 
 ---
 
@@ -17,7 +37,7 @@ Librería de componentes UI para React, estilo [shadcn/ui](https://ui.shadcn.com
 
 ```bash
 # 1. Clonar e instalar dependencias
-git clone https://github.com/tu-org/synthetix-ui.git
+git clone https://github.com/mariovaldez-dev/synthetix-ui.git
 cd synthetix-ui
 pnpm install
 
