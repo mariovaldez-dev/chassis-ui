@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --dir apps/playground run build",
+  "outputDirectory": "apps/playground/dist",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": null
+}
