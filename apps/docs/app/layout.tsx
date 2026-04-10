@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
-import { Sidebar } from "@/components/sidebar";
-import { Header } from "@/components/header";
-import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
   title: { template: "%s — synthetix-ui", default: "synthetix-ui" },
@@ -24,17 +21,9 @@ const setInitialTheme = `(function() {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <body className="flex min-h-screen">
+      <body className="min-h-screen bg-background text-foreground">
         <Script id="init-theme" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: setInitialTheme }} />
-        <Providers>
-          <Sidebar />
-          <div className="flex flex-1 flex-col">
-            <Header />
-            <main className="flex-1 px-8 py-10 max-w-3xl mx-auto">
-              <div className="prose">{children}</div>
-            </main>
-          </div>
-        </Providers>
+        {children}
       </body>
     </html>
   );
