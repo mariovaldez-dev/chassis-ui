@@ -1,9 +1,14 @@
 {
   "name": "@synthetix-ui/icons",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "SVG icon components for synthetix-ui",
-  "keywords": ["synthetix-ui", "icons", "react", "svg"],
+  "keywords": [
+    "synthetix-ui",
+    "icons",
+    "react",
+    "svg"
+  ],
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -16,7 +21,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",

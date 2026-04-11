@@ -1,9 +1,12 @@
 {
   "name": "@synthetix-ui/tokens",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Design tokens for synthetix-ui",
-  "keywords": ["synthetix-ui", "design-tokens"],
+  "keywords": [
+    "synthetix-ui",
+    "design-tokens"
+  ],
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -16,7 +19,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",

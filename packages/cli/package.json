@@ -1,15 +1,22 @@
 {
   "name": "@synthetix-ui/cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "CLI for adding chassis-ui components to your project",
-  "keywords": ["chassis-ui", "cli", "components"],
+  "keywords": [
+    "chassis-ui",
+    "cli",
+    "components"
+  ],
   "license": "MIT",
   "type": "module",
   "bin": {
     "chassis-ui": "./dist/index.js"
   },
-  "files": ["dist", "registry.json"],
+  "files": [
+    "dist",
+    "registry.json"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",

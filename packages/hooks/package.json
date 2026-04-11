@@ -1,9 +1,13 @@
 {
   "name": "@synthetix-ui/hooks",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "React hooks for chassis-ui",
-  "keywords": ["chassis-ui", "hooks", "react"],
+  "keywords": [
+    "chassis-ui",
+    "hooks",
+    "react"
+  ],
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -16,7 +20,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",

@@ -1,9 +1,13 @@
 {
   "name": "@synthetix-ui/tailwind-preset",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Tailwind CSS preset for chassis-ui",
-  "keywords": ["chassis-ui", "tailwind", "preset"],
+  "keywords": [
+    "chassis-ui",
+    "tailwind",
+    "preset"
+  ],
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -16,7 +20,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
